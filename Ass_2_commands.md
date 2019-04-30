@@ -24,7 +24,7 @@ cd $runDir
 STAR --genomeDir $genomeDir --readFilesIn /home/ngs-01/workdir/Assignment2/ngs2-assignment-data/SRR8797509_1.part_001.part_001.fastq /home/ngs-01/workdir/Assignment2/ngs2-assignment-data/SRR8797509_2.part_001.part_001.fastq --runThreadN 4
 ```
 
-## 3- For the 2-pass STAR, a new index is then created using splice junction information contained in the file sjdbList.out.tab from the first pass:
+## 3- For the 2-pass STAR, a new index is then created using splice junction information contained in the file SJ.out.tab from the first pass:
 
 ```javascript
 genomeDir=/home/ngs-01/workdir/Assignment2/chr22_with_ERCC92_2pass
